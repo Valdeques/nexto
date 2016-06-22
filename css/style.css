@@ -124,38 +124,38 @@ body header {top:-50%;}
 /*260PX BREAKPOINT*/
 @media (min-width: 16em){
 
-     .mobile_action{
-    width: 46px;
-    height: 46px;
-    margin: 10px 0 0 0;
-    float: right;
-    cursor: pointer;
-    background: url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
+    .mobile_action{
+        width: 46px;
+        height: 46px;
+        margin: 10px 0 0 0;
+        float: right;
+        cursor: pointer;
+        background: url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
 
-.mobile_action.active{
-   background:url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action.active{
+        background:url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
 
-.mobile_action:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+    }
 
-.mobile_action.active:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
-    
-    
-    
+    .mobile_action.active:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+
+
     .shoticonc{padding-left: 12%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .shoticon{padding-left: 12%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .main_acordeon .content{
@@ -171,18 +171,18 @@ body header {top:-50%;}
     }
     .main_header_fixed .main_logo{position: relative; width: 70px; height: 70px;}
     .main_header_fixed .main_logo a{position: absolute; width: 70px; height:70px;}
-    
-    
+
+
     .main_logo{position: relative; width: 80px; height: 80px;}
     .main_logo a{position: absolute; width: 80px; height: 80px; background: url(../img/logo.png) center center no-repeat; background-size: auto 76%;}
     .main_logo a:hover{background-color: #fbfbfb;}
-   
 
-     .main_header_fixed .mobile_action{ margin-top: 6%;}
-    .mobile_action{margin-top: 8%;
+
+    .main_header_fixed .mobile_action{ margin-top: 6%;}
+    .mobile_action{margin-top: 6%;
     } 
-  
-   
+
+
     .main_header_nav{
         position: fixed;
         left: -100%;
@@ -236,38 +236,38 @@ body header {top:-50%;}
 400PX BREAKPOINT
 */
 @media (min-width: 21em){
-    
-       .mobile_action{
-    width: 56px;
-    height: 56px;
-    margin: 10px 0 0 0;
-    float: right;
-    cursor: pointer;
-    background: url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
 
-.mobile_action.active{
-   background:url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action{
+        width: 56px;
+        height: 56px;
+        margin: 10px 0 0 0;
+        float: right;
+        cursor: pointer;
+        background: url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
 
-.mobile_action:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action.active{
+        background:url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
 
-.mobile_action.active:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
-    
-    
+    .mobile_action:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .mobile_action.active:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+
     .shoticonc{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .shoticon{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .main_header_nav{
@@ -299,17 +299,19 @@ body header {top:-50%;}
         display: none;
     }
 
-    .main_header_fixed .mobile_action{ margin-top: 8%;}
-    .mobile_action{margin-top: 8%;
+    .main_header_fixed .mobile_action{ margin-top: 4%;}
+    .mobile_action{margin-top: 4%;
     } 
-    
-    
-    
-    .main_header_fixed .main_logo{position: relative; width: 150px; height: 100px;}
-    .main_header_fixed .main_logo a{position: absolute; width: 150px; height:100px;}
+
+    .main_logo{position: relative; width: 80px; height: 80px;}
+    .main_logo a{position: absolute; width: 80px; height: 80px; background: url(../img/logo.png) center center no-repeat; background-size: auto 76%;}
+    .main_logo a:hover{background-color: #fbfbfb;}
+
+    .main_header_fixed .main_logo{position: relative; width: 80px; height: 80px;}
+    .main_header_fixed .main_logo a{position: absolute; width: 80px; height:80px;}
     .main_header_fixed .main_nav{ margin-top: 30px;}
 
-    
+
 
     .box-small{
         width: 100%; margin-bottom: 10% ;
@@ -330,36 +332,36 @@ body header {top:-50%;}
 */
 @media (min-width: 30em){
 
-      .mobile_action{
-    width: 56px;
-    height: 56px;
-    margin: 10px 0 0 0;
-    float: right;
-    cursor: pointer;
-    background: url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
+    .mobile_action{
+        width: 56px;
+        height: 56px;
+        margin: 10px 0 0 0;
+        float: right;
+        cursor: pointer;
+        background: url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
 
-.mobile_action.active{
-   background:url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action.active{
+        background:url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
 
-.mobile_action:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+    }
 
-.mobile_action.active:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
-    
+    .mobile_action.active:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
+
     .shoticonc{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .shoticon{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
 
@@ -383,15 +385,19 @@ body header {top:-50%;}
     .main_nav{
         display: none;
     }
-    .main_header_fixed .mobile_action{ margin-top: 6%;}
-    .mobile_action{margin-top: 6%;} 
-    
-    .main_header_fixed .main_logo{position: relative; width: 150px; height: 100px;}
-    .main_header_fixed .main_logo a{position: absolute; width: 150px; height:100px;}
+    .main_header_fixed .mobile_action{ margin-top: 3%;}
+    .mobile_action{margin-top: 3%;} 
+
+    .main_header_fixed .main_logo{position: relative; width: 80px; height: 80px;}
+    .main_header_fixed .main_logo a{position: absolute; width: 80px; height:80px;}
     .main_header_fixed .main_nav{ margin-top: 30px;}
 
-    
-    
+    .main_logo{position: relative; width: 80px; height: 80px;}
+    .main_logo a{position: absolute; width: 80px; height: 80px; background: url(../img/logo.png) center center no-repeat; background-size: auto 76%;}
+    .main_logo a:hover{background-color: #fbfbfb;}
+
+
+
     .box-small{
         width: 100%; margin-bottom: 10% ;
     }
@@ -407,41 +413,41 @@ body header {top:-50%;}
 592PX BREAKPOINT
 */
 @media (min-width: 37em){
-        
-      .mobile_action{
-    width: 56px;
-    height: 56px;
-    margin: 10px 0 0 0;
-    float: right;
-    cursor: pointer;
-    background: url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
 
-.mobile_action.active{
-   background:url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action{
+        width: 56px;
+        height: 56px;
+        margin: 10px 0 0 0;
+        float: right;
+        cursor: pointer;
+        background: url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
 
-.mobile_action:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action.active{
+        background:url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
 
-.mobile_action.active:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
-    
-    
-    
-    
-/*//////////////////////////////////////*/
+    .mobile_action:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .mobile_action.active:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+
+
+
+    /*//////////////////////////////////////*/
     .shoticonc{padding-left: 6%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .shoticon{padding-left: 12%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .main_acordeon .content{
@@ -463,17 +469,20 @@ body header {top:-50%;}
     .main_nav{
         display: none;
     }
-    .main_header_fixed .mobile_action{ margin-top: 5%;}
+    .main_header_fixed .mobile_action{ margin-top: 4%;}
     .mobile_action{
-        margin-top: 5%;
+        margin-top: 4%;
     } 
-    
-    .main_header_fixed .main_logo{position: relative; width: 150px; height: 100px;}
-    .main_header_fixed .main_logo a{position: absolute; width: 150px; height:100px;}
+
+    .main_header_fixed .main_logo{position: relative; width: 90px; height: 90px;}
+    .main_header_fixed .main_logo a{position: absolute; width: 90px; height:90px;}
     .main_header_fixed .main_nav{ margin-top: 30px;}
 
-    
-    
+    .main_logo{position: relative; width: 90px; height: 90px;}
+    .main_logo a{position: absolute; width: 90px; height: 90px; background: url(../img/logo.png) center center no-repeat; background-size: auto 76%;}
+    .main_logo a:hover{background-color: #fbfbfb;}
+
+
     .box-small{
         width: 46.5%; margin-bottom: 10% ;
 
@@ -517,42 +526,42 @@ body header {top:-50%;}
 768PX BREAKPOINT
 */
 @media (min-width: 48em){ 
-    
-    
-      .mobile_action{
-    width: 56px;
-    height: 56px;
-    margin: 10px 0 0 0;
-    float: right;
-    cursor: pointer;
-    background: url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
 
-.mobile_action.active{
-   background:url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
 
-.mobile_action:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action{
+        width: 56px;
+        height: 56px;
+        margin: 10px 0 0 0;
+        float: right;
+        cursor: pointer;
+        background: url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
 
-.mobile_action.active:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
-    
-    
-    
-    
-/*//////////////////////////////////////*/
+    .mobile_action.active{
+        background:url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .mobile_action:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .mobile_action.active:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+
+
+
+    /*//////////////////////////////////////*/
     .shoticonc{padding-left: 4%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .shoticon{padding-left: 9%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .main_acordeon .content{
@@ -587,47 +596,52 @@ body header {top:-50%;}
         margin-top: 4%;
     } 
 
-    .main_header_fixed .main_logo{position: relative; width: 150px; height: 100px;}
-    .main_header_fixed .main_logo a{position: absolute; width: 150px; height:100px;}
+    .main_header_fixed .main_logo{position: relative; width: 100px; height: 100px;}
+    .main_header_fixed .main_logo a{position: absolute; width: 100px; height:100px;}
     .main_header_fixed .main_nav{ margin-top: 30px;}
+
+    .main_logo{position: relative; width: 100px; height: 100px;}
+    .main_logo a{position: absolute; width: 100px; height: 100px; background: url(../img/logo.png) center center no-repeat; background-size: auto 76%;}
+    .main_logo a:hover{background-color: #fbfbfb;}
+
 
 }
 /*
 960PX BREAKPOINT
 */
 @media (min-width: 60em){
-    
+
     .mobile_action{
-    width: 66px;
-    height: 66px;
-    margin: 10px 0 0 0;
-    float: right;
-    cursor: pointer;
-    background: url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
+        width: 66px;
+        height: 66px;
+        margin: 10px 0 0 0;
+        float: right;
+        cursor: pointer;
+        background: url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
 
-.mobile_action.active{
-   background:url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action.active{
+        background:url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
 
-.mobile_action:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/menu.svg) center center no-repeat;
-    background-size: cover;
-}
+    .mobile_action:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/menu.svg) center center no-repeat;
+        background-size: cover;
+    }
 
-.mobile_action.active:hover{
-/*    background-color: ;*/
-    background: #CFCFCF url(../img/close.svg) center center no-repeat;
-    background-size: cover;
-}
-    
-    
+    .mobile_action.active:hover{
+        /*    background-color: ;*/
+        background: #CFCFCF url(../img/close.svg) center center no-repeat;
+        background-size: cover;
+    }
+
+
     /*/////////////////////////*/
     .shoticon{padding-left: 9%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .shoticonc{padding-left: 4%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
@@ -652,15 +666,18 @@ body header {top:-50%;}
     .main_nav{
         display: none;
     }
-    .main_header_fixed .mobile_action{ margin-top: 2%;}
+    .main_header_fixed .mobile_action{ margin-top: 3%;}
     .mobile_action{
-        margin-top: 2%;
+        margin-top: 3%;
     } 
-    
-    .main_header_fixed .main_logo{position: relative; width: 150px; height: 100px;}
-    .main_header_fixed .main_logo a{position: absolute; width: 150px; height:100px;}
+
+    .main_header_fixed .main_logo{position: relative; width: 110px; height: 110px;}
+    .main_header_fixed .main_logo a{position: absolute; width: 110px; height:110px;}
     .main_header_fixed .main_nav{ margin-top: 30px;}
-    
+
+    .main_logo{position: relative; width: 110px; height: 110px;}
+    .main_logo a{position: absolute; width: 110px; height: 110px; background: url(../img/logo.png) center center no-repeat; background-size: auto 76%;}
+    .main_logo a:hover{background-color: #fbfbfb;}
 
 
     .box-small{
@@ -741,7 +758,6 @@ body header {top:-50%;}
         margin:0;
     }
 
-    .main_header_fixed .main_logo{position: relative; width: 110px; height: 100px;}
-    .main_header_fixed .main_logo a{position: absolute; width: 110px; height:100px;}
+
 }
 
