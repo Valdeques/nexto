@@ -4,7 +4,7 @@
     padding: 0;
     outline: 0;
 
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arial','Helvetica', sans-serif;
     font-size: 1em;
     font-weight: 400;
 
@@ -36,7 +36,7 @@ a img{border: 0;}
 .bg-gray{background-color: #BFBEBC; color: #fff;}
 .bg-light{background-color: #E6E4D9; color: #444;}
 .bg-blue{background-color: #34495e; color: #fff;}
-.bg-bluelight{background-color: #004B8D; color: #fff;}
+.bg-bluelight{background-color: #0A2041; color: #fff;}
 .bg-orange{background-color: #F58025; color: #fff;}
 .bg-white{background-color: #FFFFFF; color: #001644;}
 .bg-bluedark{background-color: #001644; color: #fff;}
@@ -81,6 +81,10 @@ a img{border: 0;}
 .al-right{text-align: right;}
 .al-center{text-align: center;}
 
+
+.text-up{
+    text-transform: uppercase;
+}
 /*float*/
 .fl-left{float: left;}
 .fl-right{float: right;}
@@ -120,8 +124,8 @@ a img{border: 0;}
 .btn-yelow:hover{background-color: #d1bd59; border-color: #d1be5a;}
 .btn-red{background-color: #b26a6a; border-color: #995b5b;}
 .btn-red:hover{background-color: #cc7979; border-color: #b26a6a;}
-.btn-bluelight{background-color: #004B8D;}
-.btn-bluelight:hover{background-color:#3498DB; }
+.btn-bluelight{background-color: #0A2041;}
+.btn-bluelight:hover{background-color:#004B8D; }
 
 /*TRIGGER*/
 .trigger{float: left; width: 100%; padding: 25px; font-size: 1.2em; margin-bottom: 30px;}
@@ -142,7 +146,8 @@ a img{border: 0;}
 
 .shoticon-config{background-image: url(boot/icons/config.png);}
 .shoticon-site{background-image: url(boot/icons/site.svg);}
-.shoticon-mail{background-image: url(boot/icons/mail.png);}
+.shoticon-phone{background-image: url(boot/icons/phone.svg);}
+.shoticon-mail{background-image: url(boot/icons/mail.svg);}
 .shoticon-section{background-image: url(boot/icons/section.png);}
 .shoticon-verification{background-image: url(boot/icons/verification.svg);}
 .shoticon-linkedin{background-image: url(boot/social/linkedin.svg);}

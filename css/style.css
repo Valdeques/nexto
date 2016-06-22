@@ -1,4 +1,4 @@
-header .content{padding: 0;}
+header .content{padding: 0; }
 .main_header_fixed .main_logo{position: relative; width: 150px; height: 100px;}
 .main_header_fixed .main_logo a{position: absolute; width: 150px; height:100px;}
 .main_header_fixed .main_nav{ margin-top: 30px;}
@@ -10,7 +10,7 @@ body header {top:-50%;}
 .main_logo a:hover{background-color: #fbfbfb;}
 
 /*MENU PRINCIPAL*/
-.main_nav{width: auto; margin-top: 50px;}
+.main_nav{width: auto; margin-top: 30px;}
 .main_nav li{float: left;}
 .main_nav a{float: left; padding: 12px 10px; color: #001644; font-weight: normal;}
 .main_nav a:hover{color: #002758; text-decoration: underline;}
@@ -124,7 +124,8 @@ body header {top:-50%;}
 /*260PX BREAKPOINT*/
 @media (min-width: 16em){
 
-
+    .shoticonc{padding-left: 12%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+    .shoticon{padding-left: 12%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .main_acordeon .content{
         width:100%;
     }
@@ -207,6 +208,8 @@ body header {top:-50%;}
 400PX BREAKPOINT
 */
 @media (min-width: 21em){
+    .shoticonc{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+    .shoticon{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .main_header_nav{
         position: fixed;
         left: -100%;
@@ -258,6 +261,9 @@ body header {top:-50%;}
 480PX BREAKPOINT
 */
 @media (min-width: 30em){
+    .shoticonc{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+    .shoticon{padding-left: 8%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+
 
     .main_acordeon .content{
         width:95%;
@@ -296,6 +302,9 @@ body header {top:-50%;}
 592PX BREAKPOINT
 */
 @media (min-width: 37em){
+
+    .shoticonc{padding-left: 6%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+    .shoticon{padding-left: 12%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .main_acordeon .content{
         width:85%;
     }
@@ -324,10 +333,11 @@ body header {top:-50%;}
 
     }
 
-    .box-medium{
-        width: 46.5%;margin-bottom: 30%; 
+    .main_footer .box-medium{
+        width: 48%;  
         min-height: 150px;
-
+        margin-bottom: 5%;
+        margin-right: 3%;
     }
 
     footer .content{
@@ -361,8 +371,18 @@ body header {top:-50%;}
 768PX BREAKPOINT
 */
 @media (min-width: 48em){ 
+
+    .shoticonc{padding-left: 4%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+    .shoticon{padding-left: 9%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .main_acordeon .content{
         width:85%;
+    }
+
+    .main_footer .box-medium{
+        width: 46.5%;  
+        min-height: 150px;
+        margin-bottom: 0;
+        margin-right: 7%;
     }
     .main_header_nav{
         position: fixed;
@@ -385,18 +405,15 @@ body header {top:-50%;}
     .mobile_action{
         margin-top: 4%;
     } 
-    .box-medium{
-        width: 46.5%; margin: 0; 
 
-
-    }
 
 }
 /*
 960PX BREAKPOINT
 */
 @media (min-width: 60em){
-
+    .shoticon{padding-left: 9%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+    .shoticonc{padding-left: 4%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
 
     .main_acordeon .content{
         width:85%;
@@ -430,10 +447,15 @@ body header {top:-50%;}
     }
 
     .box-medium{
-        width: 46.5%; margin: 0; 
+        width: 46.5%;  
         min-height: 150px;
+
+        margin-right: 7%;
     }
 
+    .last{
+        margin:0;
+    }
     .content{
         width:85%;
     }
@@ -464,11 +486,17 @@ body header {top:-50%;}
 1280PX BREAKPOINT
 */
 @media (min-width: 80em){
-   .content{
-        width:70%;
+    .shoticon{padding-left: 7%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+    .shoticonc{padding-left: 3%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
+
+    .content{
+        width:80%;
     }
+
+
     .main_header_nav{  
         display: none;
+
 
     }
     .mobile_action{
@@ -477,10 +505,22 @@ body header {top:-50%;}
 
     .main_nav{
         display: block;
+        font-size: 0.875em;
     }
     .main_form{
         margin: 0 auto;
         width: 80%;
     }
+
+    .box-medium{
+        width: 46.5%;
+        margin-right: 7%;
+    }
+    .last{
+        margin:0;
+    }
+
+    .main_header_fixed .main_logo{position: relative; width: 110px; height: 100px;}
+    .main_header_fixed .main_logo a{position: absolute; width: 110px; height:100px;}
 }
 
