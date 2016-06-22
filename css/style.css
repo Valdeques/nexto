@@ -107,14 +107,14 @@ body header {top:-50%;}
     margin: 10px 0 0 0;
     float: right;
     cursor: pointer;
-    background: #004B8D url(../img/mobile.png) center center no-repeat;
+    background: #0A2041 url(../img/mobile.png) center center no-repeat;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
 }
 
 .mobile_action.active{
-    background-color: #004B8D;
+    background-color: #0A2041;
 }
 
 .mobile_action:hover{
@@ -149,7 +149,7 @@ body header {top:-50%;}
         margin: 25px 0 0 0;
         float: right;
         cursor: pointer;
-        background: #004B8D url(../img/mobile.png) center center no-repeat;
+        background: #0A2041 url(../img/mobile.png) center center no-repeat;
         border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -162,7 +162,7 @@ body header {top:-50%;}
         width: 70%;
         height: 100%;
         min-width: 60%;
-        background: #004B8D;
+        background: #0A2041;
         z-index: 99;
         overflow: hidden;
         overflow-y: auto;
@@ -217,7 +217,7 @@ body header {top:-50%;}
         width: 70%;
         height: 100%;
         min-width: 60%;
-        background: #004B8D;
+        background: #0A2041;
         z-index: 99;
         overflow: hidden;
         overflow-y: auto;
@@ -275,7 +275,7 @@ body header {top:-50%;}
         width: 65%;
         height: 100%;
         min-width: 60%;
-        background: #004B8D;
+        background: #0A2041;
         z-index: 99;
         overflow: hidden;
         overflow-y: auto;
@@ -316,7 +316,7 @@ body header {top:-50%;}
         width: 65%;
         height: 100%;
         min-width: 60%;
-        background: #004B8D;
+        background: #0A2041;
         z-index: 99;
         overflow: hidden;
         overflow-y: auto;
@@ -390,7 +390,7 @@ body header {top:-50%;}
         top: 0%;
         max-width: 10%;
         height: 100%;
-        background: #004B8D;
+        background: #0A2041;
         z-index: 99;
         overflow: hidden;
         overflow-y: auto;
@@ -425,7 +425,7 @@ body header {top:-50%;}
         width: 20%;
         height: 100%;
 
-        background: #004B8D;
+        background: #0A2041;
         z-index: 99;
         overflow: hidden;
         overflow-y: auto;
