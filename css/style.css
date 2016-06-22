@@ -125,8 +125,8 @@ body header {top:-50%;}
 @media (min-width: 16em){
 
     .mobile_action{
-        width: 46px;
-        height: 46px;
+        width: 56px;
+        height: 56px;
         margin: 10px 0 0 0;
         float: right;
         cursor: pointer;
