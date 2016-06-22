@@ -727,6 +727,10 @@ body header {top:-50%;}
 1280PX BREAKPOINT
 */
 @media (min-width: 80em){
+    
+    .main_acordeon .content{
+         width: 80%;
+    }
     .shoticon{padding-left: 7%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
     .shoticonc{padding-left: 3%; background-position: center left; background-repeat: no-repeat; background-size: auto 96%;}
 
