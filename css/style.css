@@ -122,6 +122,13 @@ body header {top:-50%;}
 }
 /*//////////////////////////////////////*/
 
+@media (max-width: 20.9em){
+.main_nav{
+        display: none;
+    }
+}
+
+
 /*
 400PX BREAKPOINT
 */
