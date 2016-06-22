@@ -215,7 +215,10 @@ body header {top:-50%;}
     .box-medium{
         width: 100%; margin-bottom: 10% ;
     }
-
+    
+    .main_acordeon .content{
+         width: 90%;
+    }
     .main_razoes ul{
         width: 100%;
         margin: 0 auto;
