@@ -124,7 +124,7 @@ body header {top:-50%;}
 /*260PX BREAKPOINT*/
 @media (min-width: 16em){
     .sectiontitle h1{font-size: 2em; font-weight: 300; margin-bottom: 10px;}
-    .sectiontitle2 h1{width: 90%; font-size: 1.7em; font-weight: 300; padding: 30px 0; margin:0 auto;}
+    .sectiontitle2 h1{width: 90%; font-size: 2em; font-weight: 300; padding: 30px 0; margin:0 auto;}
 .main_nav{
         display: none;
     }
